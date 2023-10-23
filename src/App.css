@@ -1,5 +1,11 @@
+@font-face {
+    font-family: robo;
+    src: url(./Roboto_Mono/README.txt);
+}
 .App {
   text-align: center;
+  font-family: robo;
+  overflow-x: hidden
 }
 
 .App-logo {

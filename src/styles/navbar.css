@@ -1,0 +1,263 @@
+
+  .navbar {
+    margin: 0;
+    width: auto;
+    background-color: #DDE4FF;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+  }
+  #list{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    display: none;
+  
+ /* YourComponent.css */
+.title-fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .title-fade-in.active {
+    opacity: 1;
+  }
+  
+    
+ 
+}
+.intro{
+   height: 350px;
+    width: auto;
+   
+  background-color: #DDE4FF;
+}
+#blue {
+    text-decoration: none;
+    color: #3E54AC;
+   
+}
+.iteeeeeem1{
+  position: absolute;
+  left: 0;
+  width: 200px;
+  margin-left: 8%;
+}
+#imagee{
+    width: 300px;
+    padding: auto;
+    animation: moveUpDown 2s linear infinite; /* Adjust the animation properties as needed */
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Adjust the distance it moves */
+    }
+}
+
+  #imag{
+    width: 20px;
+    margin-left: 6px;
+  }
+  .flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  #but {
+   
+    width: 100px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom,#DDE4FF, rgb(182, 179, 244));
+    padding: 5px;
+
+  }
+
+
+  
+  .navbar .rightSide {
+   position: relative;
+    left: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar a:hover {
+    color: rgb(170, 39, 170); /* Change the text color to a different color on hover */
+    text-decoration: underline; /* Underline the link on hover */
+    transition: color 0.3s, text-decoration 0.3s; /* Add a smooth transition effect */
+  }
+  .navbar a {
+    color: #3E54AC;
+    text-decoration: none;
+    margin: 20px;
+    font-weight:bolder;
+    cursor: pointer;
+  }
+.navbar a :hover{
+  color: wheat;  
+  cursor: pointer;
+}
+  
+  .navbar button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 10px;
+   
+  }
+
+  
+  .navbar #open {
+    padding-left: 0px;
+  }
+  .navbar #open img {
+    display: none;   /*to hide the element from the layout */
+  }
+  
+  .navbar #close img {
+    display: inherit; /* is used to inherit the value of the display property from the parent */
+  }
+  
+  .navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: -17px;
+  }
+
+  .navbar #close .hiddenLinks {
+    display: none;
+  }
+  #list{
+    width: 20px;
+    height: 20px;
+  }
+  .navbar #open a {
+    width: 70px;
+   
+  }
+  @media only screen and (max-width: 900px) {
+
+    .navbar .rightSide a {
+      width: 70px;
+    }
+    .navbar .leftSide {
+      margin-left: 20px;
+    }
+    #imagee{
+        width: 200px;
+        margin-right: 10%;
+        margin-top: 20%;
+    }
+    .intro {
+        height: 350px;
+    }
+   
+  }
+  
+  @media (max-width: 768px) {
+    .close-button {
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: #fff; /* Change the color to your preference */
+       /* Change the background color to your preference */
+        padding: 5px 10px;
+        border-radius: 5px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+      
+      .close-button:hover {
+        background-color: #3E54AC; /* Change the background color when hovering to your preference */
+      }
+    .navbar .leftSide {
+        flex: 50%;
+        display: grid;
+        grid-template-columns: auto;  
+       
+        align-items: center;
+        padding-left: 50px;
+        border-radius: 10%;
+       
+      }
+      .navbar .leftSide .hiddenLinks {
+        flex: 50%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background-color:#ECF2FF;
+        width: 32%;
+        padding-left: 40px;
+        z-index: 1;
+      }
+    
+    #list{
+        display: inherit;
+    }
+
+   
+    .navbar{
+        height: 60px;
+    }
+    .navbar .rightSide a {
+      display: none;
+                    /* hide the right side links when responsive */
+    }
+
+    .navbar .rightSide {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+
+
+  
+    .navbar .rightSide button {
+      display: inherit;
+    }
+    
+    .navbar a {
+        color: #3E54AC;
+        text-decoration: none;
+        margin: 20px;
+        font-weight:bolder;
+        font-size:smaller;
+      }
+      h1{
+        color: #3E54AC;
+     
+       
+    }
+      #imagee{
+        width: 200px;
+        margin-left: 20%;
+        margin-top: 20%;
+    }
+    .intro {
+        height: 350px;
+    }
+    .iteeeeeem1{
+        margin-left: 2%;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+  
+    .hiddenLinks {
+      display: none;
+    }
+    .navbar{
+        background-color: #DDE4FF;
+    }
+   
+  
+ 
+
+  }

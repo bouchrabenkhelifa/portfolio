@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-left: 20%;
+}
+h3{
+    color: #3E54AC;
+  
+}
+p{
+    color: black;
+    width: auto;
+}
+.item1{
+  
+    width:50% ;
+    height:auto ;
+}
+
+
+#noire{
+    color: black;
+    display: flex;
+    font-size: large;
+    line-height: 1.5;
+    
+  
+}
+#ima{
+    width:100px ;
+    height: 200px ;
+}
+@media only screen and (max-width: 768px) {
+    .container1 {
+        display: grid;
+        grid-template-columns:  auto ;
+        margin-left:2%;
+        gap: 10px;
+    }
+    #image1{
+        width: 70%;
+    
+        
+        
+    
+    }
+    .item1{
+  
+        width:auto;
+        height:auto ;
+    }
+    
+}

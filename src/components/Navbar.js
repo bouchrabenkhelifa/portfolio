@@ -21,8 +21,8 @@ function Navbar() {
   };
 
   useEffect(() => {
-    const typeSpeed = 80;
-    const backSpeed = 20;
+    const typeSpeed = 100;
+    const backSpeed = 10;
 
     const typingInterval = setInterval(() => {
       if (isTyping) {

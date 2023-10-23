@@ -78,9 +78,9 @@ function Navbar() {
         <div className="container">
           <div className="iteeeeeem1" data-aos="fade-up">
             <h4>Hello i'm BOUCHRA</h4>
-            <h3 id="blue">
+            <h2 id="blue">
               {text}
-            </h3>
+            </h2>
             <a href="mailto:lb_benkhelifa@esi.dz">
               <motion.button whileHover={{ scale: 1.05 }} id="but">
                 <div className="flex1">Email <img id="imag" src={mail} /></div>
